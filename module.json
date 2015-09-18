@@ -1,0 +1,25 @@
+{
+  "name": "cmsis-core-stm32f0",
+  "version": "0.0.0",
+  "description": "CMSIS Core module for STM32F0xx microcontrollers",
+  "keywords": [],
+  "author": "Javier Gomez Moreno <javier.moreno@tridonic.com>",  
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "BSD-3-Clause"
+    }
+  ],
+  "extraIncludes": [
+    "cmsis-core-stm32f0"
+  ],
+  "dependencies": {
+    "cmsis-core": "~0.2.0",
+    "mbed-hal-st-stm32f0": "~0.0.0"
+  },
+  "targetDependencies": {    
+	"stm32f091rc": {
+      "cmsis-core-stm32f091rc": "~0.0.0"
+    }
+  }
+}
