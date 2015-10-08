@@ -14,11 +14,10 @@
     "cmsis-core-stm32f0"
   ],
   "dependencies": {
-    "cmsis-core": "~0.2.0",
-    "mbed-hal-st-stm32f0": "~0.0.0"
+    "cmsis-core": "~0.2.0"
   },
   "targetDependencies": {    
-	"stm32f091rc": {
+    "stm32f091rc": {
       "cmsis-core-stm32f091rc": "~0.0.0"
     }
   }
