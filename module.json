@@ -1,0 +1,30 @@
+{
+  "name": "cmsis-core-stm32f0",
+  "version": "0.0.0",
+  "description": "CMSIS Core module for STM32F0xx microcontrollers",
+  "keywords": [
+    "mbed",
+    "mbed-official"
+  ],
+  "author": "STMicroelectronics",
+  "homepage": "https://github.com/ARMmbed/cmsis-core-stm32f0",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "BSD-3-Clause"
+    }
+  ],
+  "extraIncludes": [
+    "cmsis-core-stm32f0"
+  ],
+  "dependencies": {
+    "uvisor-lib": "^1.0.0",
+    "cmsis-core": "*",
+    "mbed-hal-st-stm32f0": "*"
+  },
+  "targetDependencies": {
+    "stm32f091xc": {
+      "cmsis-core-stm32f091xc": "*"
+    }
+  }
+}
