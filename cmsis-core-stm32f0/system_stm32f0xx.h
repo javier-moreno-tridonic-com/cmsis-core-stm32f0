@@ -99,10 +99,10 @@ extern uint32_t SystemCoreClock;          /*!< System Clock Frequency (Core Cloc
   * @{
   */
   
-extern void SystemInitPre(void); // Added for MBED
+extern void SystemInitPre(void);
 extern void SystemInit(void);
 extern void SystemCoreClockUpdate(void);
-extern void SetSysClock(void); // Added for MBED
+extern void SetSysClock(void);
 
 /**
   * @}
