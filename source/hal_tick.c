@@ -96,6 +96,8 @@ HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority) {
     __HAL_TIM_SET_COMPARE(&TimMasterHandle, TIM_CHANNEL_2, PreviousVal + HAL_TICK_DELAY);
     __HAL_TIM_ENABLE_IT(&TimMasterHandle, TIM_IT_CC2);
 
+    TIM_MST_FREEZE_AT_DEBUG;	// stop timer at breakpoints
+
 #if 0 // For DEBUG only
     __GPIOB_CLK_ENABLE();
     GPIO_InitTypeDef GPIO_InitStruct;
