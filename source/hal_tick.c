@@ -40,12 +40,12 @@ uint32_t PreviousVal = 0;
 void us_ticker_irq_handler(void);
 
 void timer_irq_handler(void) {
-	// counter overflow: check this first
-	if (__HAL_TIM_GET_FLAG(&TimMasterHandle, TIM_IT_UPDATE) == SET)
-	{
-		__HAL_TIM_CLEAR_IT(&TimMasterHandle, TIM_IT_UPDATE);
-		us_ticker_overflow_handler();
-	}
+    // counter overflow: check this first
+    if (__HAL_TIM_GET_FLAG(&TimMasterHandle, TIM_IT_UPDATE) == SET)
+    {
+        __HAL_TIM_CLEAR_IT(&TimMasterHandle, TIM_IT_UPDATE);
+        us_ticker_overflow_handler();
+    }
 
     // Channel 1 for mbed timeout
     if (__HAL_TIM_GET_FLAG(&TimMasterHandle, TIM_IT_CC1) == SET) {
