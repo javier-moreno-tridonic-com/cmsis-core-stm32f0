@@ -45,6 +45,7 @@ void timer_irq_handler(void) {
     {
         __HAL_TIM_CLEAR_IT(&TimMasterHandle, TIM_IT_UPDATE);
         us_ticker_overflow_handler();
+        us_ticker_irq_handler();
     }
 
     // Channel 1 for mbed timeout
