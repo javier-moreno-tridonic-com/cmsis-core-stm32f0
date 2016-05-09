@@ -1,7 +1,7 @@
 /* mbed Microcontroller Library
  * A generic CMSIS include header
  *******************************************************************************
- * Copyright (c) 2014, STMicroelectronics
+ * Copyright (c) 2015, STMicroelectronics
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -33,6 +33,6 @@
 #define MBED_CMSIS_H
 
 #include "stm32f0xx.h"
-#include "cmsis_nvic.h"
+#include "cmsis-core/cmsis_nvic.h"
 
 #endif

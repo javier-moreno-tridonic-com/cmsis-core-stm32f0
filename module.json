@@ -1,9 +1,13 @@
 {
   "name": "cmsis-core-stm32f0",
-  "version": "0.0.0-tri-0.1.6",
+  "version": "0.0.1-tri-0.5.0",
   "description": "CMSIS Core module for STM32F0xx microcontrollers",
-  "keywords": [],
-  "author": "Javier Gomez Moreno <javier.moreno@tridonic.com>",  
+  "keywords": [
+    "mbed",
+    "mbed-official"
+  ],
+  "author": "STMicroelectronics",
+  "homepage": "https://github.com/ARMmbed/cmsis-core-stm32f0",
   "licenses": [
     {
       "url": "https://spdx.org/licenses/BSD-3-Clause",
@@ -14,12 +18,13 @@
     "cmsis-core-stm32f0"
   ],
   "dependencies": {
-    "cmsis-core": "tridonic-com/cmsis-core#1.1.0-tri-0.1.6",
-    "mbed-hal-st-stm32f0": "tridonic-com/mbed-hal-st-stm32f0#b0.0.0-tri-0.1.6"
+    "uvisor-lib": "^1.0.0",
+    "cmsis-core": "tridonic-com/cmsis-core#b1.2.0-tri-0.5.0",
+    "mbed-hal-st-stm32f0": "tridonic-com/mbed-hal-st-stm32f0#b0.3.1-tri-0.5.0"
   },
   "targetDependencies": {    
     "stm32f091rc": {
-      "cmsis-core-stm32f091rc": "tridonic-com/cmsis-core-stm32f091rc#b0.0.0-tri-0.1.6"
+      "cmsis-core-stm32f091rc": "tridonic-com/cmsis-core-stm32f091rc#b0.0.3-tri-0.5.0"
     }
   }
 }
