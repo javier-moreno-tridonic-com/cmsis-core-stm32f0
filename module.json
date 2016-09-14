@@ -19,12 +19,12 @@
   ],
   "dependencies": {
     "uvisor-lib": ">=1.0.0,<3.0.0",
-    "cmsis-core": "tridonic-com/cmsis-core#b1.2.0-tri-0.8.0",
-    "mbed-hal-st-stm32f0": "tridonic-com/mbed-hal-st-stm32f0#b0.3.1-tri-0.8.0"
+    "cmsis-core": "tridonic-com/cmsis-core#b1.2.0-tri-0.9.0",
+    "mbed-hal-st-stm32f0": "tridonic-com/mbed-hal-st-stm32f0#b0.3.1-tri-0.9.0"
   },
   "targetDependencies": {    
     "stm32f091rc": {
-      "cmsis-core-stm32f091rc": "tridonic-com/cmsis-core-stm32f091rc#b0.0.3-tri-0.8.0"
+      "cmsis-core-stm32f091rc": "tridonic-com/cmsis-core-stm32f091rc#b0.0.3-tri-0.9.0"
     }
   }
 }
